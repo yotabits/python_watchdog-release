@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="1">
+  <name>python_watchdog</name>
+  <version>0.8.3</version>
+  <description>Filesystem events monitoring</description>
+  <maintainer email="tkostas75@gmail.com">tkostas</maintainer>
+
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>catkin_pip</build_depend>
+  
+  <run_depend>pathtools</run_depend>
+  <run_depend>python-yaml</run_depend>
+  <run_depend>python-argh</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
